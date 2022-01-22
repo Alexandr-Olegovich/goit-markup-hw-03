@@ -1,2 +1,3 @@
-# goit-markup-hw-03
-third-homework
+# goit-markup-hw-02
+New-repository
+First clone
