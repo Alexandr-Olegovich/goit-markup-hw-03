@@ -9,7 +9,28 @@ body {
   font-family: roboto, sans-serif;
   color: var(--black-color);
 }
-/* header */
+/*container____________________________________________container*/
+.container {  
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  outline: 2px solid red;
+}
+/*container_____________________________________________container*/
+/* header_______________________________________________header */
+
+.navigation-list{display: flex;}
+.horizontal{display: flex;}
+.navigation-list-first{  
+  display: flex;}
+.navigation-list-second{ 
+  justify-content: end; 
+  display: flex;}
+  .nav-element{
+    margin-left: 50px;
+    } 
+   
 /*logo стиль*/
 .logo {
   font-family: Raleway;
@@ -65,7 +86,7 @@ a {
 .section-head {
   background-color: #2f303a;
 }
-/* header end */
+/* header end ______________________________________________________header end*/
 /* Body_____________________________________________________________________________Body */
 /* кнопки */
 .portfolio-button {

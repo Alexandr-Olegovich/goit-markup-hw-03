@@ -18,29 +18,35 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
     <header class="start">
-      <nav class="navigation">
-        <a class="logo" href="">Web<span class="logo-element-one">Studio</span></a>
-        <ul class="navigation-list">
+      <div class="container">
+        <nav class="navigation">        
+        <a class="logo" href="">Web<span class="logo-element">Studio</span></a>
+        <ul class="navigation-list-first">
           <li class="nav-element"><a href="" class="link-head-one">Студия</a></li>
           <li class="nav-element"><a href="portfolio.html" class="link-head-one">Портфолио</a></li>
           <li class="nav-element"><a href="" class="link-head-one">Контакты</a></li>
         </ul>
       </nav>
-      <ul>
+      <ul class="navigation-list-second">
         <li class="nav-element"><a class="link-head" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
         <li class="nav-element"><a class="link-head" href="tel:+380961111111">+38 096 111 11 11</a></li>
-      </ul>
+      </ul>      
+      </div>      
     </header>
     <main>
       <section class="section-head">
+        <div class="container">
         <h1 class="hero-one">Эффективные решения для вашего бизнеса</h1>
         <button class="press-it" type="button">Заказать услугу</button>
+        </div>
       </section>
       <section>
+        <div class="container">
         <ul>
           <li>
             <h3 class="hero-three">Внимание к деталям</h3>
@@ -67,8 +73,10 @@
             </p>
           </li>
         </ul>
+        </div>
       </section>
       <section>
+        <div class="container">
         <h2 class="hero-two">Чем мы занимаемся</h2>
         <ul>
           <li><img src="./images/box_1.jpg" alt="разработка_по" width="370" height="294" /></li>
@@ -84,8 +92,10 @@
             <img src="./images/box_3.jpg" alt="разработка_дизайна" width="370" height="294" />
           </li>
         </ul>
+        </div>
       </section>
       <section>
+        <div class="container">
         <h2 class="hero-two">Наша команда</h2>
         <ul>
           <li>
@@ -109,9 +119,11 @@
             <p class="profession">UI Designer</p>
           </li>
         </ul>
+        </div>
       </section>
     </main>
     <footer class="foot">
+      <div class="container">
       <a class="logo" href="">Web<span class="logo-foot-element">Studio</span></a>
       <address>
         <ul class="adress-id">
@@ -126,6 +138,7 @@
           <li class="adress-element">
             <a class="link-foot" href="tel:+380991111111">+38 099 111 11 11</a>
           </li>
+          </div>
         </ul>
       </address>
     </footer>
