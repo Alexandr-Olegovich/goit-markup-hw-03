@@ -1,5 +1,11 @@
 /*переменние основніх цветов*/
-p,h1,h2,h3,h4,h5,ul{
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+ul {
   padding: 0px;
   margin: 0px;
 }
@@ -15,7 +21,7 @@ body {
   color: var(--black-color);
 }
 /*container____________________________________________container*/
-.container {   
+.container {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
@@ -24,19 +30,31 @@ body {
 }
 /*container_____________________________________________container*/
 /* header_______________________________________________header */
-.navigation {display: flex;}
-.img-position{display: flex;}
-.navigation-list{display: flex;}
-.content-position{display: flex;}
-.navigation-list-first{  
-  display: flex;}
-.navigation-list-second{ 
-  justify-content: end; 
-  display: flex;}
-  .nav-element{    
-    margin-left: 50px;
-    } 
-   .section-head{margin-top: 0px;}
+.navigation {
+  display: flex;
+}
+.img-position {
+  display: flex;
+}
+.navigation-list {
+  display: flex;
+}
+.content-position {
+  display: flex;
+}
+.navigation-list-first {
+  display: flex;
+}
+.navigation-list-second {
+  justify-content: end;
+  display: flex;
+}
+.nav-element {
+  margin-left: 50px;
+}
+.section-head {
+  margin-top: 0px;
+}
 /*logo стиль*/
 .logo {
   font-family: Raleway;
@@ -81,15 +99,17 @@ body {
   text-decoration: none;
   color: var(--grey-color);
 }
-.link-head-one{color: var(--black-color);}
+.link-head-one {
+  color: var(--black-color);
+}
 ul {
   list-style: none;
 }
 a {
   text-decoration: none;
 }
-.description{
-width: 270px;
+.description {
+  width: 270px;
 }
 
 .section-head {
@@ -187,7 +207,7 @@ width: 270px;
   font-weight: 700;
   font-size: 16px;
   line-height: calc(16 / 14);
-  letter-spacing: 0.03em;  
+  letter-spacing: 0.03em;
 }
 
 /* body end ____________________________________________________________________body-end */
