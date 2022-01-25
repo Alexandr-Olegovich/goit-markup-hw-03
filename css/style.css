@@ -106,6 +106,7 @@ ul {
   list-style: none;
 }
 a {
+  font-style: normal;
   text-decoration: none;
 }
 .description {
@@ -212,11 +213,11 @@ a {
 
 /* body end ____________________________________________________________________body-end */
 /*Footer */
-.foot {
+.foot { font-style: normal;
   background: #2f303a;
 }
 .link-foot-color {
-  font-style: normal;
+  
   color: var(--white-color);
 }
 .foot-color {
