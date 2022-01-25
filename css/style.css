@@ -1,4 +1,9 @@
 /*переменние основніх цветов*/
+p,h1,h2,h3,h4,h5,ul{
+  padding: 0px;
+  margin: 0px;
+}
+
 :root {
   --blue-color: #2196f3;
   --white-color: #ffffff;
@@ -10,7 +15,7 @@ body {
   color: var(--black-color);
 }
 /*container____________________________________________container*/
-.container {  
+.container {   
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
@@ -19,18 +24,19 @@ body {
 }
 /*container_____________________________________________container*/
 /* header_______________________________________________header */
-
+.navigation {display: flex;}
+.img-position{display: flex;}
 .navigation-list{display: flex;}
-.horizontal{display: flex;}
+.content-position{display: flex;}
 .navigation-list-first{  
   display: flex;}
 .navigation-list-second{ 
   justify-content: end; 
   display: flex;}
-  .nav-element{
+  .nav-element{    
     margin-left: 50px;
     } 
-   
+   .section-head{margin-top: 0px;}
 /*logo стиль*/
 .logo {
   font-family: Raleway;
@@ -81,6 +87,9 @@ ul {
 }
 a {
   text-decoration: none;
+}
+.description{
+width: 270px;
 }
 
 .section-head {
