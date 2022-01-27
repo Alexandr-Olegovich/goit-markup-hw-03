@@ -22,23 +22,26 @@
   </head>
   <body class="main-srift">
      <header class="start">
-      <nav class="navigation">
-        <a class="logo" href="">Web<span class="logo-element">Studio</span></a>
-        <ul class="navigation-list">
+      <div class="container header-container">
+        <nav class="navigation">        
+        <a class="logo-head" href="">Web<span class="logo-element">Studio</span></a>
+        <ul class="navigation-list-first">
           <li class="nav-element"><a href="index.html" class="link-head-one">Студия</a></li>
-          <li class="nav-element"><a href="" class="link-head-one">Портфолио</a></li>
+          <li class="nav-element"><a href="portfolio.html" class="link-head-one">Портфолио</a></li>
           <li class="nav-element"><a href="" class="link-head-one">Контакты</a></li>
         </ul>
       </nav>
-      <ul>
+      <ul class="navigation-list-second">
         <li class="nav-element"><a class="link-head" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
         <li class="nav-element"><a class="link-head" href="tel:+380961111111">+38 096 111 11 11</a></li>
-      </ul>
+      </ul>      
+      </div>      
     </header>
     <main>
-      <section class="button-list">
-        <h1 hidden>WebStudio</h1>
-        <ul>
+      <section>
+        <div class="container">
+        <h1 hidden>WebStudio</h1>        
+        <ul class="button-list">
           <li class="button-element">
             <button class="portfolio-button" type="button">Все</button>
           </li>
@@ -54,59 +57,79 @@
           <li class="button-element">
             <button class="portfolio-button" type="button">Маркетинг</button>
           </li>
-        </ul>
+        </ul>               
 
-        <ul>
+        <ul class="card-set">
           <li class="img-list-element">
             <img src="./images/img1.jpg" alt="Технокряк" width="370" />
+            <div class="card-box">
             <h2 class="work-name">Технокряк</h2>
             <p class="description-port">Веб-сайт</p>
+            </div>
           </li>
           <li class="img-list-element">
             <img src="./images/img2.jpg" alt="Постер New Orlean vs Golden Star" width="370" />
+            <div class="card-box">
             <h2 class="work-name">Постер New Orlean vs Golden Star</h2>
             <p class="description-port">Дизайн</p>
+            </div>
           </li>
           <li class="img-list-element">
             <img src="./images/img3.jpg" alt="Ресторан Seafood" width="370" />
+            <div class="card-box">
             <h2 class="work-name">Ресторан Seafood</h2>
             <p class="description-port">Приложение</p>
+            </div>
           </li>
           <li class="img-list-element">
             <img src="./images/img4.jpg" alt="Проект Prime" width="370" />
+            <div class="card-box">
             <h2 class="work-name">Проект Prime</h2>
             <p class="description-port">Маркетинг</p>
+            </div>
           </li>
           <li class="img-list-element">
             <img src="./images/img5.jpg" alt="Проект Boxes" width="370" />
+            <div class="card-box">
             <h2 class="work-name">Проект Boxes</h2>
             <p class="description-port">Приложение</p>
+            </div>
           </li>
           <li class="img-list-element">
             <img src="./images/img6.jpg" alt="Inspiration has no Borders" width="370" />
+            <div class="card-box">
             <h2 class="work-name">Inspiration has no Borders</h2>
             <p class="description-port">Веб-сайт</p>
+            </div>
           </li>
           <li class="img-list-element">
             <img src="./images/img7.jpg" alt="Издание Limited Edition" width="370" />
+            <div class="card-box">
             <h2 class="work-name">Издание Limited Edition</h2>
             <p class="description-port">Дизайн</p>
+            </div>
           </li>
           <li class="img-list-element">
             <img src="./images/img8.jpg" alt="Проект LAB" width="370" />
+            <div class="card-box">
             <h2 class="work-name">Проект LAB</h2>
             <p class="description-port">Маркетинг</p>
+            </div>
           </li>
           <li class="img-list-element">
             <img src="./images/img9.jpg" alt="Growing Business" width="370" />
+            <div class="card-box">
             <h2 class="work-name">Growing Business</h2>
             <p class="description-port">Приложение</p>
+            </div>
           </li>
         </ul>
+        </div>
       </section>
     </main>
-        <footer class="foot">
-      <a class="logo" href="">Web<span class="logo-foot-element">Studio</span></a>
+       <footer class="foot">
+      <div class="container">
+      <a class="logo-foot" href="">Web<span class="logo-foot-element">Studio</span></a>
       <address>
         <ul class="adress-id">
           <li class="adress-element">
@@ -120,9 +143,9 @@
           <li class="adress-element">
             <a class="link-foot" href="tel:+380991111111">+38 099 111 11 11</a>
           </li>
+          </div>
         </ul>
       </address>
     </footer>
-
   </body>
 </html>

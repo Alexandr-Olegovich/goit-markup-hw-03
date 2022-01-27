@@ -28,13 +28,19 @@ body {
   margin: 0 auto;
   outline: 2px solid red;
 }
+.header-container{
+  align-items: center;
+  display:flex;
+}
 /*container_____________________________________________container*/
 /* header_______________________________________________header */
 .navigation {
+  align-items: center;
   display: flex;
 }
-.img-position {
-  display: flex;
+.img-position:not(:first-child) { 
+    display: flex;
+    margin-bottom: 94px;
 }
 .navigation-list {
   display: flex;
@@ -43,20 +49,21 @@ body {
   display: flex;
 }
 .navigation-list-first {
+  margin-left: 93px;
   display: flex;
 }
-.navigation-list-second {
-  justify-content: end;
+.navigation-list-second { 
+  margin-left: auto;
+  align-items: center;  
   display: flex;
 }
-.nav-element {
+.nav-element:not(:first-child) {   
   margin-left: 50px;
 }
-.section-head {
-  margin-top: 0px;
-}
+ 
 /*logo стиль*/
-.logo {
+.logo-head,
+.logo-foot {
   font-family: Raleway;
   font-weight: 700;
   font-size: 26px;
@@ -89,9 +96,9 @@ body {
   color: var(--blue-color);
 }
 .link-head,
-.link-head-one,
-.link-foot,
-.link-foot-color {
+.link-head-one {
+  display: block;
+  padding: 32px 0;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -102,6 +109,11 @@ body {
 .link-head-one {
   color: var(--black-color);
 }
+img{
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
 ul {
   list-style: none;
 }
@@ -111,9 +123,9 @@ a {
 }
 .description {
   width: 270px;
-}
-
+}  
 .section-head {
+  padding: 200px 0;
   background-color: #2f303a;
 }
 /* header end ______________________________________________________header end*/
@@ -133,7 +145,10 @@ a {
   color: var(--white-color);
   background-color: var(--blue-color);
 }
-.press-it {
+.press-it { 
+  margin-top: 30px; 
+  margin-left: auto;
+  margin-right: auto;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -148,14 +163,35 @@ a {
 .press-it:hover,
 .press-it:focus {
   color: var(--grey-color);
-  background-color: #f5f4fa;
+  background-color:#f5f4fa;
 }
 .portfolio-button,
 .press-it {
-  cursor: pointer;
+cursor: pointer;
 }
+.button-list{ 
+  justify-content: center;
+  margin-top: 94px;
+  margin-bottom: 50px;
+  display: flex;
+}
+.button-element:not(:first-child){
+  margin-left: 8px;
+}
+.img-list-element{   
+  margin-left: 30px; 
+}
+.img-list-element:nth-child(3n+1){
+  margin-left: 0px;
+}
+.card-box{
+  margin-left: 24px;
+  padding: 20px 0;
+  width: 322px;
+}
+
 /* кнопки стоп*/
-.hero-one {
+.hero-one {  
   font-weight: 900;
   font-size: 44px;
   line-height: calc(60 / 44);
@@ -163,6 +199,22 @@ a {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--white-color);
+  margin-left: auto;
+  margin-right: auto;
+}
+.section{
+  padding: 94px 0;
+}
+.work-section{
+  padding-top: 0;
+}
+.team-section{
+  display: flex;
+  background: #F5F4FA;
+}
+
+.content:not(:first-child){  
+  margin-left: 30px;
 }
 .nav-word {
   font-weight: 500;
@@ -196,7 +248,8 @@ a {
   line-height: 2;
   letter-spacing: 0.06em;
 }
-.hero-two {
+.hero-two {  
+  margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
   line-height: calc(42 / 36);
@@ -204,20 +257,48 @@ a {
   letter-spacing: 0.03em;
   color: var(--black-color);
 }
-.hero-three {
+.hero-three {    
+  margin-bottom: 10px;
   font-weight: 700;
   font-size: 16px;
   line-height: calc(16 / 14);
   letter-spacing: 0.03em;
 }
+.card{ 
+  background-color: var(--white-color);    
+  justify-content: center;
+   padding: 30px 0;
+}
+.card-set {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 94px;
+}
 
 /* body end ____________________________________________________________________body-end */
 /*Footer */
-.foot { font-style: normal;
+.foot {
+  padding: 60px 0; 
+  font-style: normal;
   background: #2f303a;
 }
-.link-foot-color {
-  
+.adress-id{
+  margin-top: 20px;
+}
+.link-foot,
+.link-foot-color{
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: var(--grey-color);
+}
+.adress-element:not(:first-child){
+  margin-top: 9px;
+}
+
+.link-foot-color {  
   color: var(--white-color);
 }
 .foot-color {
